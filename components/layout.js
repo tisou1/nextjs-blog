@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 
-const name = '谢霆锋123'
+const name = '谢霆锋456'
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
