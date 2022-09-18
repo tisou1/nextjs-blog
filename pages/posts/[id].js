@@ -45,7 +45,6 @@ export async function getStaticProps({ params }) {
   return {
     props: {
       postData
-    }
+    },
   }
 }
-
