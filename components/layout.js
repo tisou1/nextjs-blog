@@ -5,7 +5,7 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 
-const name = '谢霆锋456'
+const name = 'tisou1'
 export const siteTitle = 'Next.js Sample Website';
 
 export default function Layout({ children, home }) {
@@ -35,7 +35,7 @@ export default function Layout({ children, home }) {
             <>
               <Image
                 priority
-                src="/images/facebook.jpeg"
+                src="/images/gitHub-avatar.jpg"
                 className={utilStyles.borderCircle}
                 width={144}
                 height={144}
@@ -49,7 +49,7 @@ export default function Layout({ children, home }) {
                 <a>
                   <Image
                     priority
-                    src="/images/facebook.jpeg"
+                    src="/images/gitHub-avatar.jpg"
                     className={utilStyles.borderCircle}
                     height={108}
                     width={108}

@@ -5,7 +5,6 @@ import Date from '../../components/date';
 import utilStyles from '../../styles/utils.module.css'
 
 export default function Post({ postData }) {
-  console.log(postData.title)
   return (
     <Layout>
 

@@ -6,10 +6,9 @@ import Date from '../components/date';
 
 import { getSortedPostsData } from '../lib/posts'
 //读取next注入的环境变量
-let id = process.env.NEXT_PUBLIC_ANALYTICS_ID
-console.log(id)
+// let id = process.env.NEXT_PUBLIC_ANALYTICS_ID
+// console.log(id)
 export default function Home({ allPostsData }) {
-  console.log(allPostsData)
   return (
     <Layout home>
       <Head>
